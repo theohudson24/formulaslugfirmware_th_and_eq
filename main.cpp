@@ -1,24 +1,9 @@
 #include "mbed.h"
 
-/*
-Formula SAE - Electronic Throttle Control (ETC) Project
-
-This program simulates an ETC system for a Formula SAE car.
-It reads pedal sensors, brake sensor, a cockpit RTD switch,
-and wheel speed sensors, then applies safety checks before
-outputting a final throttle value.
-
-Features:
-- Reads and converts pedal voltages into percentages
-- Checks pedal implausibility between APPS0 and APPS1
-- Ready To Drive (RTD) logic with buzzer alert
-- Brake System Error (BSE) check: cuts throttle if brake + pedal pressed
-- Launch Control: reduces torque if wheel slip detected
-- Prints system state (pedal, brake, RTD, implausibility, slip, throttle)
-
-Note: Pins, voltage ranges, and scaling must be updated for your board.
-Look for:  // Update with board Information
-*/
+// My code isn't running/functional at the moment, I was unable to attend the necessary sections
+// To recieve the board information, most of the board data is based on estimates I found
+// I need to change out anything that has an update comment (this was for me to remember)
+// The logic of my code is there, yet needs tweaking when I have access to the board
 
 // Update with board Information
 static constexpr float ADC_REFERENCE_VOLTAGE = 3.3f;
