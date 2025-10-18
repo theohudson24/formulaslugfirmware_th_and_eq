@@ -3,7 +3,6 @@
     "*": {
       "platform.stdio-baud-rate": 115200,
       "platform.stdio-buffered-serial": 1
-      // "target.application-profile": "bare-metal"  // uncomment if you want bare-metal profile
     }
   }
 }
