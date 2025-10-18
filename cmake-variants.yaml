@@ -1,0 +1,15 @@
+buildType:
+  default: Develop
+  choices:
+    Develop: { short: Develop, long: "Debug info + some optimization", buildType: Develop }
+    Debug:   { short: Debug,   long: "Full debug, no optimization",   buildType: Debug }
+    Release: { short: Release, long: "Optimize",                      buildType: Release }
+
+board:
+  default: YOUR_MBED_TARGET
+  choices:
+    YOUR_MBED_TARGET:
+      short: YOUR_MBED_TARGET
+      settings:
+        MBED_TARGET: YOUR_MBED_TARGET
+        UPLOAD_METHOD: YOUR_UPLOAD_METHOD

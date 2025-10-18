@@ -1,0 +1,28 @@
+{
+  "cmake.buildDirectory": "${workspaceFolder}/build/${variant:board}-${variant:buildType}",
+  "cmake.generator": "Ninja",
+  "cmake.configureOnOpen": false,
+  "cmake.options.statusBarVisibility": "compact",
+  "cmake.options.advanced": {
+    "build": {
+      "statusBarVisibility": "visible",
+      "inheritDefault": "hidden"
+    },
+    "launch": {
+      "statusBarVisibility": "visible",
+      "inheritDefault": "hidden"
+    },
+    "debug": {
+      "statusBarVisibility": "visible",
+      "inheritDefault": "hidden"
+    },
+    "cpack": {
+      "statusBarVisibility": "hidden",
+      "inheritDefault": "hidden"
+    },
+    "workflow": {
+      "statusBarVisibility": "hidden",
+      "inheritDefault": "hidden"
+    }
+  }
+}
