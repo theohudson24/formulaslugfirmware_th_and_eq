@@ -1,9 +1,11 @@
 #include "mbed.h"
 
-// My code isn't running/functional at the moment, I was unable to attend the necessary sections
-// To recieve the board information, most of the board data is based on estimates I found
-// I need to change out anything that has an update comment (this was for me to remember)
-// The logic of my code is there, yet needs tweaking when I have access to the board
+// Our code isn't running/functional at the moment, we were unable to attend the necessary sections
+// To recieve the board information, most of the board data is based on estimates we found
+// We need to change out anything that has an update comment (this was for me to remember)
+// The logic of my code is there, yet needs tweaking when we have access to the board
+
+// Worked on by Theo Hudson & Ernesto Quintanilla
 
 // Update with board Information
 static constexpr float ADC_REFERENCE_VOLTAGE = 3.3f;
